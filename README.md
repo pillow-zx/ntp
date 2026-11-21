@@ -16,6 +16,8 @@ make ARCH=riscv busybox
 
 ## Build OnsYuri
 
+NTP includes a trimmed-down port of [OnscripterYuri](https://github.com/YuriSizuku/OnscripterYuri.git).
+
 Build the Nuvix SDL2 port before OnsYuri. These targets also need CMake, pkg-config, and a RISC-V C++ cross-compiler. The first build fetches third-party sources.
 
 ```sh
