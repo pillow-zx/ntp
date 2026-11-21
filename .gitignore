@@ -1,0 +1,5 @@
+/build/
+/apps/busybox/
+/apps/onsyuri/thirdparty/
+/*.img
+/.mkimage.*/
